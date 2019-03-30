@@ -1,3 +1,6 @@
+import java.util.Iterator;
+import java.util.List;
+
 public class PlayGame {
 
   protected int playerToMove;
@@ -27,8 +30,36 @@ public class PlayGame {
 
   private boolean checkAndPerformSpecialMove(Player player, ActionConstants action) {
     if (action.compareTo(ActionConstants.MISSED_STRIKE) == 0
-        || action.compareTo(ActionConstants.DEFUNCT_COIN) == 0) {}
+        || action.compareTo(ActionConstants.DEFUNCT_COIN) == 0) {
+      List previousMoves = player.getPreviousMoves();
+      if (areLastThreeMisses(previousMoves)) {
+        player.updateFoulList(true);
+      }
+      if(areLastThreeFouls(player.getFoulList())) {
 
+      }
+    }
+
+    return false;
+  }
+
+  private boolean areLastThreeFouls(List foulList) {
+    return true;
+  }
+
+  private boolean areLastThreeMisses(List previousMoves) {
+    int count = 0;
+    for (int i = previousMoves.size() - 1; i > 0; i--) {
+
+      if (previousMoves.get(i).equals(ActionConstants.MISSED_STRIKE)) {
+        count++;
+        if (count == 3) {
+          return true;
+        }
+      } else {
+        break;
+      }
+    }
     return false;
   }
 

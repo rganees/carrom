@@ -17,6 +17,7 @@ public class ActionFactory {
         actionMap.put(ActionConstants.RED_STRIKE, new RedStrike());
         actionMap.put(ActionConstants.STRIKER_STRIKE, new StrikerStrike());
         actionMap.put(ActionConstants.DEFUNCT_COIN, new DefunctCoin());
+        actionMap.put(ActionConstants.MISSED_STRIKE, new MissedStrike());
     }
 
     public Action getAction(ActionConstants action) {
