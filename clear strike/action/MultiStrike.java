@@ -6,6 +6,9 @@ public class MultiStrike extends Action {
 
     @Override
     public boolean isMoveValid(Board board) {
+        if(board.getBlackCoin() >= 2) {
+            return true;
+        }
         return false;
     }
 
