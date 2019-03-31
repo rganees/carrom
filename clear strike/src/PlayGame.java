@@ -40,7 +40,7 @@ public class PlayGame {
         System.out.println(
                 "Current Score: Player 1: " + player1.getPoints() + " Player 2: " + player2.getPoints());
         System.out.println(
-                "Coins left: Red: " + board.getRedCoin() + " black: " + board.getBlackCoin());
+                "Coins left: Red: " + board.getRedCoin() + " black: " + board.getBlackCoin()+"\n");
       }
       return true;
     }
@@ -118,16 +118,16 @@ public class PlayGame {
       return player1.getName()
           + " Won the game. Final Score: "
           + player1.getPoints()
-          + "-"
+          + " - "
           + player2.getPoints();
     }
     if (player2.getPoints() - player1.getPoints() >= 3 && player2.getPoints() >= 5) {
       return player2.getName()
           + " Wins. Final Score: "
           + player1.getPoints()
-          + "-"
+          + " - "
           + player2.getPoints();
     }
-    return "Draw. Final Score: " + player1.getPoints() + "-" + player2.getPoints();
+    return "Draw. Final Score: " + player1.getPoints() + " - " + player2.getPoints();
   }
 }
