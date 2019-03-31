@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/clear strike/board" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/clear strike/action" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/clear strike/input_generator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

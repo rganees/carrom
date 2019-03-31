@@ -14,7 +14,7 @@ import java.util.List;
 * */
 
 public class Main {
-  private static final String FILE_NAME = "./clear strike/src/main/com/clear_strike/input.txt";
+  private static final String FILE_NAME = "./src/main/com/clear_strike/input.txt";
 
   public static void main(String[] args) {
     Game game = new Game();
