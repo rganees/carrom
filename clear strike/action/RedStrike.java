@@ -6,10 +6,7 @@ public class RedStrike extends Action {
 
     @Override
     public boolean isMoveValid(Board board) {
-        if (board.getRedCoin() == 1) {
-            return true;
-        }
-        return false;
+        return board.getRedCoin() == 1;
     }
     @Override
     public void modifyBoard(Board board) {

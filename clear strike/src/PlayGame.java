@@ -23,44 +23,49 @@ public class PlayGame {
       ActionFactory actionFactory = new ActionFactory();
       Action action = actionFactory.getAction(currentAction);
       Player player = getPlayerToMove();
-      System.out.println(player.getName() + " " + currentAction);
-      if (!checkAndPerformSpecialMove(player, currentAction)) {
-        int getPointsForAction = action.performAction(board);
-        if (getPointsForAction != Constant.INVALID_MOVE_POINTS) {
-          player.setPoints(player.getPoints() + getPointsForAction);
-        } else {
-          isInvalidMove = true;
+      if (player != null) {
+        System.out.println(player.getName() + " " + currentAction);
+        if (!checkAndPerformSpecialMove(player, currentAction)) {
+          int getPointsForAction = action.performAction(board);
+          if (getPointsForAction != Constant.INVALID_MOVE_POINTS) {
+            player.setPoints(player.getPoints() + getPointsForAction);
+          } else {
+            isInvalidMove = true;
+          }
         }
+        performActionForValidMove(currentAction, isInvalidMove, player);
+        return true;
       }
-      if (isInvalidMove) {
-        System.out.println("Invalid Move. Please try again.");
-      } else {
-        player.setPreviousMoves(currentAction);
-        playerToMove++;
-        System.out.println(
-                "Current Score: Player 1: " + player1.getPoints() + " Player 2: " + player2.getPoints());
-        System.out.println(
-                "Coins left: Red: " + board.getRedCoin() + " black: " + board.getBlackCoin()+"\n");
-      }
-      return true;
     }
     return false;
   }
 
+  private void performActionForValidMove(
+      ActionConstants currentAction, boolean isInvalidMove, Player player) {
+    if (isInvalidMove) {
+      System.out.println("Invalid Move. Please try again.");
+    } else {
+      player.setPreviousMoves(currentAction);
+      playerToMove++;
+      System.out.println(
+          "Current Score: Player 1: " + player1.getPoints() + " Player 2: " + player2.getPoints());
+      System.out.println(
+          "Coins left: Red: " + board.getRedCoin() + " black: " + board.getBlackCoin() + "\n");
+    }
+  }
+
   private boolean checkAndPerformSpecialMove(Player player, ActionConstants action) {
     boolean returnFlag = false;
-    if (action.equals(ActionConstants.MISSED_STRIKE)
-        || action.equals(ActionConstants.DEFUNCT_COIN)
-        || action.equals(ActionConstants.STRIKER_STRIKE)) {
+    if (isPossiblePointLoser(action)) {
       List previousMoves = player.getPreviousMoves();
       if (action.equals(ActionConstants.DEFUNCT_COIN)
           || action.equals(ActionConstants.STRIKER_STRIKE)) {
         player.setFoulCounter(player.getFoulCounter() + 1);
       }
       if (action.equals(ActionConstants.MISSED_STRIKE)) {
-        player.setFoulCounter(player.getFoulCounter() + 1);
         returnFlag = true;
         if (areLastThreeMisses(previousMoves)) {
+          player.setFoulCounter(player.getFoulCounter() + 1);
           player.setPoints(player.getPoints() - 1);
         }
       }
@@ -72,6 +77,12 @@ public class PlayGame {
     }
 
     return returnFlag;
+  }
+
+  private boolean isPossiblePointLoser(ActionConstants action) {
+    return action.equals(ActionConstants.MISSED_STRIKE)
+        || action.equals(ActionConstants.DEFUNCT_COIN)
+        || action.equals(ActionConstants.STRIKER_STRIKE);
   }
 
   private boolean areLastThreeMisses(List previousMoves) {
@@ -96,8 +107,9 @@ public class PlayGame {
         return player1;
       case 1:
         return player2;
+      default:
+        return null;
     }
-    return null;
   }
 
   private boolean isGameOver() {

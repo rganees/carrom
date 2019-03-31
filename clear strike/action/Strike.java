@@ -6,10 +6,7 @@ public class Strike extends Action {
 
     @Override
     public boolean isMoveValid(Board board) {
-        if(board.getBlackCoin() >= 1) {
-            return true;
-        }
-        return false;
+        return board.getBlackCoin() >= 1;
     }
 
     @Override

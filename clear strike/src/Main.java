@@ -29,12 +29,7 @@ public class Main {
     } catch (IOException e) {
       e.printStackTrace();
     }
-    /*allMoves.add(ActionConstants.DEFUNCT_COIN);
-    allMoves.add(ActionConstants.MULTIPLE_STRIKE);
-    allMoves.add(ActionConstants.DEFUNCT_COIN);
-    allMoves.add(ActionConstants.MULTIPLE_STRIKE);
-    allMoves.add(ActionConstants.DEFUNCT_COIN);
-    allMoves.add(ActionConstants.MULTIPLE_STRIKE);*/
+
     return allMoves;
   }
 

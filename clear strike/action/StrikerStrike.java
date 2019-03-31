@@ -8,4 +8,9 @@ public class StrikerStrike extends Action {
     public boolean isMoveValid(Board board) {
         return true;
     }
+
+    @Override
+    public void modifyBoard(Board board) {
+        //DO NOTHING
+    }
 }
