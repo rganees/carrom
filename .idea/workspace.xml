@@ -1,50 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb859c54-7cf1-48a4-9af7-73fd16505d1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/com/action/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/action/ActionConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/action/ActionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/action/DefunctCoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/action/MissedStrike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/action/MultiStrike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/action/RedStrike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/action/Strike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/action/StrikerStrike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/board/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/clear_strike/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/clear_strike/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/clear_strike/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/clear_strike/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/input_generator/InputGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/player/Player.java" afterDir="false" />
+    <list default="true" id="cb859c54-7cf1-48a4-9af7-73fd16505d1b" name="Default Changelist" comment="- Modified packaging">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/.idea/google-java-format.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clear strike/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/clear strike.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/src/main/com/action/Action.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/src/main/com/action/ActionConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/src/main/com/action/ActionFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/src/main/com/action/DefunctCoin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/src/main/com/action/MissedStrike.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/src/main/com/action/MultiStrike.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/src/main/com/action/RedStrike.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/src/main/com/action/Strike.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/src/main/com/action/StrikerStrike.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/src/main/com/board/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/src/main/com/clear_strike/Constant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/src/main/com/clear_strike/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/src/main/com/clear_strike/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/src/main/com/clear_strike/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/src/main/com/input_generator/InputGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/src/main/com/player/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clear strike/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/clear_strike/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/clear_strike/Game.java" afterDir="false" />
     </list>
     <list id="44fd4653-ba3a-418e-8df2-22b93be12f77" name="unwanted" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/com/clear_strike/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="170">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/com/clear_strike/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -115,6 +84,7 @@
         <option value="$PROJECT_DIR$/clear strike/src/main/com/action/StrikerStrike.java" />
         <option value="$PROJECT_DIR$/clear strike/src/main/com/clear_strike/Game.java" />
         <option value="$PROJECT_DIR$/clear strike/src/main/com/clear_strike/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/com/clear_strike/Game.java" />
       </list>
     </option>
   </component>
@@ -149,22 +119,21 @@
               <item name="carrom" type="b2602c69:ProjectViewProjectNode" />
               <item name="carrom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carrom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carrom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="carrom" type="b2602c69:ProjectViewProjectNode" />
               <item name="carrom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="clear_strike" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carrom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carrom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="input_generator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -178,7 +147,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554038761585" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554039187492" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/clear strike" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -320,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554036786729</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="- Modified packaging">
+      <created>1554038828770</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554038828770</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -351,13 +327,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36564627" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39795917" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.31632653" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.31632653" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3282313" />
       <window_info anchor="bottom" id="SonarLint" order="11" weight="0.4387755" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -376,6 +352,18 @@
     <MESSAGE value="- Fixed Bugs" />
     <MESSAGE value="- Modified packaging" />
     <option name="LAST_COMMIT_MESSAGE" value="- Modified packaging" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/com/clear_strike/Game.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -543,8 +531,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/clear_strike/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="170">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/clear_strike/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
         </state>
       </provider>
     </entry>

@@ -57,7 +57,7 @@ public class Game {
       player.setPreviousMoves(currentAction);
       playerToMove++;
       System.out.println(
-          "Current Score: main.com.player.Player 1: " + player1.getPoints() + " main.com.player.Player 2: " + player2.getPoints());
+          "Current Score: Player 1: " + player1.getPoints() + " Player 2: " + player2.getPoints());
       System.out.println(
           "Coins left: Red: " + board.getRedCoin() + " black: " + board.getBlackCoin() + "\n");
     }
