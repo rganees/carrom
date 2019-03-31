@@ -11,22 +11,37 @@ public class PlayGame {
   public PlayGame() {
     this.playerToMove = 0;
     this.noOfPlayers = 2;
-    this.board = new Board(1, 8);
+    this.board = new Board(1, 9);
     this.player1 = new Player("Player 1");
     this.player2 = new Player("Player 2");
   }
 
   public boolean playNextMove(ActionConstants currentAction) {
     if (currentAction != null && !isGameOver()) {
-      System.out.println("current score. Player 1: " + player1.getPoints() + " Player 2: " + player2.getPoints());
+
+      boolean isInvalidMove = false;
       ActionFactory actionFactory = new ActionFactory();
       Action action = actionFactory.getAction(currentAction);
       Player player = getPlayerToMove();
+      System.out.println(player.getName() + " " + currentAction);
       if (!checkAndPerformSpecialMove(player, currentAction)) {
-        player.setPoints(player.getPoints() + action.performAction(board));
+        int getPointsForAction = action.performAction(board);
+        if (getPointsForAction != Constant.INVALID_MOVE_POINTS) {
+          player.setPoints(player.getPoints() + getPointsForAction);
+        } else {
+          isInvalidMove = true;
+        }
       }
-      player.setPreviousMoves(currentAction);
-      playerToMove++;
+      if (isInvalidMove) {
+        System.out.println("Invalid Move. Please try again.");
+      } else {
+        player.setPreviousMoves(currentAction);
+        playerToMove++;
+        System.out.println(
+                "Current Score: Player 1: " + player1.getPoints() + " Player 2: " + player2.getPoints());
+        System.out.println(
+                "Coins left: Red: " + board.getRedCoin() + " black: " + board.getBlackCoin());
+      }
       return true;
     }
     return false;
@@ -35,9 +50,11 @@ public class PlayGame {
   private boolean checkAndPerformSpecialMove(Player player, ActionConstants action) {
     boolean returnFlag = false;
     if (action.equals(ActionConstants.MISSED_STRIKE)
-        || action.equals(ActionConstants.DEFUNCT_COIN)) {
+        || action.equals(ActionConstants.DEFUNCT_COIN)
+        || action.equals(ActionConstants.STRIKER_STRIKE)) {
       List previousMoves = player.getPreviousMoves();
-      if (action.equals(ActionConstants.DEFUNCT_COIN)) {
+      if (action.equals(ActionConstants.DEFUNCT_COIN)
+          || action.equals(ActionConstants.STRIKER_STRIKE)) {
         player.setFoulCounter(player.getFoulCounter() + 1);
       }
       if (action.equals(ActionConstants.MISSED_STRIKE)) {
@@ -56,7 +73,6 @@ public class PlayGame {
 
     return returnFlag;
   }
-
 
   private boolean areLastThreeMisses(List previousMoves) {
     int count = 0;
@@ -94,18 +110,18 @@ public class PlayGame {
 
   private boolean hasAPlayerWon() {
     return (Math.abs(player1.getPoints() - player2.getPoints())) >= 3
-        && (player1.getPoints() >= 5 || player2.getPoints() > 5);
+        && (player1.getPoints() >= 5 || player2.getPoints() >= 5);
   }
 
   public String getWinner() {
-    if (player1.getPoints() - player2.getPoints() >= 3 && player1.getPoints() > 5) {
+    if (player1.getPoints() - player2.getPoints() >= 3 && player1.getPoints() >= 5) {
       return player1.getName()
           + " Won the game. Final Score: "
           + player1.getPoints()
           + "-"
           + player2.getPoints();
     }
-    if (player2.getPoints() - player1.getPoints() >= 3 && player2.getPoints() > 5) {
+    if (player2.getPoints() - player1.getPoints() >= 3 && player2.getPoints() >= 5) {
       return player2.getName()
           + " Wins. Final Score: "
           + player1.getPoints()

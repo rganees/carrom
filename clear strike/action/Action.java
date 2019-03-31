@@ -9,7 +9,7 @@ public abstract class Action {
             modifyBoard(board);
             return getPoints(board);
         }
-        return 0;
+        return Constant.INVALID_MOVE_POINTS;
     }
 
 }

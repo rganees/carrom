@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb859c54-7cf1-48a4-9af7-73fd16505d1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/clear strike/src/Constant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/clear strike/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clear strike/action/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/clear strike/action/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clear strike/action/ActionConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/clear strike/action/ActionConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clear strike/src/PlayGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/clear strike/src/PlayGame.java" afterDir="false" />
+    </list>
+    <list id="44fd4653-ba3a-418e-8df2-22b93be12f77" name="unwanted" comment="">
       <change beforePath="$PROJECT_DIR$/clear strike/src/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clear strike/src/input.txt" afterDir="false" />
     </list>
-    <list id="44fd4653-ba3a-418e-8df2-22b93be12f77" name="unwanted" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clear strike/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+            <state relative-caret-position="206">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clear strike/action/Action.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="182">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -62,12 +65,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clear strike/action/ActionConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#202#203#0" expanded="true" />
                 <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clear strike/src/Constant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -98,21 +112,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clear strike/action/Strike.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="e#89#90#0" expanded="true" />
-                <element signature="e#113#114#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clear strike/action/ActionFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
@@ -128,11 +127,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clear strike/src/PlayGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-931">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state relative-caret-position="187">
+              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding>
-                <element signature="e#2481#2482#0" expanded="true" />
-                <element signature="e#2595#2596#0" expanded="true" />
+                <element signature="e#3139#3140#0" expanded="true" />
+                <element signature="e#3253#3254#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,7 +155,6 @@
         <option value="$PROJECT_DIR$/clear strike/src/playGame.java" />
         <option value="$PROJECT_DIR$/clear strike/action/Miss.java" />
         <option value="$PROJECT_DIR$/clear strike/action/MissedStrike.java" />
-        <option value="$PROJECT_DIR$/clear strike/action/ActionConstants.java" />
         <option value="$PROJECT_DIR$/clear strike/input.txt" />
         <option value="$PROJECT_DIR$/clear strike/action/MultiStrike.java" />
         <option value="$PROJECT_DIR$/clear strike/action/Strike.java" />
@@ -164,9 +162,11 @@
         <option value="$PROJECT_DIR$/clear strike/player/Player.java" />
         <option value="$PROJECT_DIR$/clear strike/src/Input.java" />
         <option value="$PROJECT_DIR$/clear_strike/src/Main.java" />
-        <option value="$PROJECT_DIR$/clear strike/action/Action.java" />
         <option value="$PROJECT_DIR$/clear strike/input_generator/InputGenerator.java" />
         <option value="$PROJECT_DIR$/clear strike/src/Main.java" />
+        <option value="$PROJECT_DIR$/clear strike/src/Constant.java" />
+        <option value="$PROJECT_DIR$/clear strike/action/Action.java" />
+        <option value="$PROJECT_DIR$/clear strike/action/ActionConstants.java" />
         <option value="$PROJECT_DIR$/clear strike/src/PlayGame.java" />
       </list>
     </option>
@@ -235,7 +235,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554020952617" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554027990404" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -307,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554020368690</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- Fixed Bugs">
+      <created>1554021053765</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554021053765</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -324,14 +331,14 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.95090014" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39934534" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44353518" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.19639935" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.24386252" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -345,28 +352,28 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- Added logic for special cases." />
     <MESSAGE value="- Fixed Bugs&#10;- Added logic for random input file." />
-    <option name="LAST_COMMIT_MESSAGE" value="- Fixed Bugs&#10;- Added logic for random input file." />
+    <MESSAGE value="- Fixed Bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Fixed Bugs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/clear strike/src/PlayGame.java</url>
-          <line>95</line>
+          <line>31</line>
           <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/clear strike/src/PlayGame.java</url>
-          <line>87</line>
-          <properties />
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>isGameOver()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>br.readLine()</expression-string>
         <language-id>JAVA</language-id>
@@ -480,13 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clear strike/action/Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clear strike/input_generator/InputGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -497,13 +497,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clear strike/action/ActionConstants.java">
+    <entry file="file://$PROJECT_DIR$/clear strike/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="206">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -511,23 +510,40 @@
     <entry file="file://$PROJECT_DIR$/clear strike/src/input.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/clear strike/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/clear strike/action/Action.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        <state relative-caret-position="182">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clear strike/action/ActionConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clear strike/src/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clear strike/src/PlayGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-931">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        <state relative-caret-position="187">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
-            <element signature="e#2481#2482#0" expanded="true" />
-            <element signature="e#2595#2596#0" expanded="true" />
+            <element signature="e#3139#3140#0" expanded="true" />
+            <element signature="e#3253#3254#0" expanded="true" />
           </folding>
         </state>
       </provider>
