@@ -17,7 +17,8 @@ public class PlayGame {
   }
 
   public boolean playNextMove(ActionConstants currentAction) {
-    if (currentAction != null || !isGameOver()) {
+    if (currentAction != null && !isGameOver()) {
+      System.out.println("current score. Player 1: " + player1.getPoints() + " Player 2: " + player2.getPoints());
       ActionFactory actionFactory = new ActionFactory();
       Action action = actionFactory.getAction(currentAction);
       Player player = getPlayerToMove();

@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb859c54-7cf1-48a4-9af7-73fd16505d1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/clear strike/input_generator/InputGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clear strike/src/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/clear strike.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/clear strike.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/action/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/clear strike/action/Action.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/action/MultiStrike.java" beforeDir="false" afterPath="$PROJECT_DIR$/clear strike/action/MultiStrike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/action/RedStrike.java" beforeDir="false" afterPath="$PROJECT_DIR$/clear strike/action/RedStrike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/action/Strike.java" beforeDir="false" afterPath="$PROJECT_DIR$/clear strike/action/Strike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clear strike/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/clear strike/player/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clear strike/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/clear strike/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clear strike/src/PlayGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/clear strike/src/PlayGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clear strike/src/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clear strike/src/input.txt" afterDir="false" />
     </list>
     <list id="44fd4653-ba3a-418e-8df2-22b93be12f77" name="unwanted" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clear strike/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="157">
+              <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,9 +47,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clear strike/src/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-374" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -69,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clear strike/action/ActionConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
+            <state relative-caret-position="170">
               <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
                 <element signature="e#202#203#0" expanded="true" />
@@ -135,14 +125,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clear strike/src/PlayGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            <state relative-caret-position="-931">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding>
-                <element signature="e#2366#2367#0" expanded="true" />
-                <element signature="e#2480#2481#0" expanded="true" />
+                <element signature="e#2481#2482#0" expanded="true" />
+                <element signature="e#2595#2596#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,12 +162,12 @@
         <option value="$PROJECT_DIR$/clear strike/action/Strike.java" />
         <option value="$PROJECT_DIR$/clear strike/action/RedStrike.java" />
         <option value="$PROJECT_DIR$/clear strike/player/Player.java" />
-        <option value="$PROJECT_DIR$/clear strike/src/PlayGame.java" />
         <option value="$PROJECT_DIR$/clear strike/src/Input.java" />
         <option value="$PROJECT_DIR$/clear_strike/src/Main.java" />
-        <option value="$PROJECT_DIR$/clear strike/src/Main.java" />
         <option value="$PROJECT_DIR$/clear strike/action/Action.java" />
         <option value="$PROJECT_DIR$/clear strike/input_generator/InputGenerator.java" />
+        <option value="$PROJECT_DIR$/clear strike/src/Main.java" />
+        <option value="$PROJECT_DIR$/clear strike/src/PlayGame.java" />
       </list>
     </option>
   </component>
@@ -245,7 +235,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554020071569" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554020952617" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -310,11 +300,19 @@
       <option name="project" value="LOCAL" />
       <updated>1554005960566</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- Fixed Bugs&#10;- Added logic for random input file.">
+      <created>1554020368690</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554020368690</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -326,14 +324,14 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.95090014" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.7430442" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.19639935" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -346,22 +344,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- Added logic for special cases." />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added logic for special cases." />
+    <MESSAGE value="- Fixed Bugs&#10;- Added logic for random input file." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Fixed Bugs&#10;- Added logic for random input file." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/clear strike/src/PlayGame.java</url>
-          <line>20</line>
+          <line>95</line>
           <properties />
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/clear strike/src/Main.java</url>
-          <line>36</line>
+          <url>file://$PROJECT_DIR$/clear strike/src/PlayGame.java</url>
+          <line>87</line>
           <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -481,36 +480,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clear strike/src/PlayGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-          <folding>
-            <element signature="e#2366#2367#0" expanded="true" />
-            <element signature="e#2480#2481#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clear strike/action/Action.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clear strike/src/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clear strike/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -526,11 +499,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clear strike/action/ActionConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
+        <state relative-caret-position="170">
           <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
             <element signature="e#202#203#0" expanded="true" />
             <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clear strike/src/input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clear strike/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clear strike/src/PlayGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-931">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="e#2481#2482#0" expanded="true" />
+            <element signature="e#2595#2596#0" expanded="true" />
           </folding>
         </state>
       </provider>

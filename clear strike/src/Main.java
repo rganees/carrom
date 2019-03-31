@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+  private static final String FILE_NAME = "./clear strike/src/input.txt";
 
   public static void main(String[] args) {
     PlayGame playGame = new PlayGame();
@@ -21,7 +22,7 @@ public class Main {
   private static List<ActionConstants> populateList() {
     List<ActionConstants> allMoves = new ArrayList<>();
     String content;
-    try (BufferedReader br = new BufferedReader(new FileReader("./clear strike/src/input.txt"))) {
+    try (BufferedReader br = new BufferedReader(new FileReader(FILE_NAME))) {
       while ((content = br.readLine()) != null) {
         allMoves.add(getAction(Integer.parseInt(content)));
       }
