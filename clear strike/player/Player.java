@@ -5,13 +5,13 @@ public class Player {
   private String name;
   private int points;
   private List previousMoves;
-  private List foulList;
+  private int foulCounter;
 
   public Player(String name) {
     this.name = name;
     this.points = 0;
     this.previousMoves = new ArrayList();
-    this.foulList = new ArrayList();
+    this.foulCounter = 0;
   }
 
   public String getName() {
@@ -38,11 +38,11 @@ public class Player {
     this.previousMoves.add(previousMoves);
   }
 
-  public List getFoulList() {
-    return foulList;
+  public int getFoulCounter() {
+    return foulCounter;
   }
 
-  public void updateFoulList(Boolean isFoul) {
-    this.foulList.add(isFoul);
+  public void setFoulCounter(int foulCounter) {
+    this.foulCounter = foulCounter;
   }
 }

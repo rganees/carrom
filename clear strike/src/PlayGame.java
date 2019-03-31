@@ -17,15 +17,12 @@ public class PlayGame {
   }
 
   public boolean playNextMove(ActionConstants currentAction) {
-    if (!isGameOver()) {
+    if (currentAction != null || !isGameOver()) {
       ActionFactory actionFactory = new ActionFactory();
       Action action = actionFactory.getAction(currentAction);
       Player player = getPlayerToMove();
       if (!checkAndPerformSpecialMove(player, currentAction)) {
         player.setPoints(player.getPoints() + action.performAction(board));
-        if (!currentAction.equals(ActionConstants.DEFUNCT_COIN)) {
-          player.updateFoulList(false);
-        }
       }
       player.setPreviousMoves(currentAction);
       playerToMove++;
@@ -40,40 +37,25 @@ public class PlayGame {
         || action.equals(ActionConstants.DEFUNCT_COIN)) {
       List previousMoves = player.getPreviousMoves();
       if (action.equals(ActionConstants.DEFUNCT_COIN)) {
-        player.updateFoulList(true);
+        player.setFoulCounter(player.getFoulCounter() + 1);
       }
       if (action.equals(ActionConstants.MISSED_STRIKE)) {
-        player.updateFoulList(true);
+        player.setFoulCounter(player.getFoulCounter() + 1);
         returnFlag = true;
         if (areLastThreeMisses(previousMoves)) {
           player.setPoints(player.getPoints() - 1);
         }
       }
 
-      if (areLastThreeFouls(player.getFoulList())) {
+      if (player.getFoulCounter() == 3) {
         player.setPoints(player.getPoints() - 1);
-        player.updateFoulList(false);
+        player.setFoulCounter(0);
       }
     }
 
     return returnFlag;
   }
 
-  private boolean areLastThreeFouls(List foulList) {
-    int count = 0;
-    for (int i = foulList.size() - 1; i >= 0; i--) {
-
-      if (foulList.get(i).equals(true)) {
-        count++;
-        if (count == 3) {
-          return true;
-        }
-      } else {
-        break;
-      }
-    }
-    return false;
-  }
 
   private boolean areLastThreeMisses(List previousMoves) {
     int count = 0;

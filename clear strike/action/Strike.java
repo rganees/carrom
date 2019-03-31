@@ -12,4 +12,9 @@ public class Strike extends Action {
         return false;
     }
 
+    @Override
+    public void modifyBoard(Board board) {
+        board.setBlackCoin(board.getBlackCoin() - 1);
+    }
+
 }

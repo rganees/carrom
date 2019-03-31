@@ -11,4 +11,8 @@ public class RedStrike extends Action {
         }
         return false;
     }
+    @Override
+    public void modifyBoard(Board board) {
+        board.setRedCoin(board.getRedCoin() - 1);
+    }
 }
