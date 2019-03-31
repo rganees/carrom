@@ -1,3 +1,5 @@
+package main.com.input_generator;
+
 import java.io.*;
 import java.util.Random;
 /*

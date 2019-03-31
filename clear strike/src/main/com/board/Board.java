@@ -1,3 +1,5 @@
+package main.com.board;
+
 public class Board {
   private int redCoin;
   private int blackCoin;

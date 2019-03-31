@@ -1,3 +1,7 @@
+package main.com.action;
+
+import main.com.board.Board;
+
 public class MultiStrike extends Action {
   @Override
   public int getPoints(Board board) {

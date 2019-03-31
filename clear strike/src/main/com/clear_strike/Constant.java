@@ -1,3 +1,5 @@
+package main.com.clear_strike;
+
 public class Constant {
     private Constant() {
     }

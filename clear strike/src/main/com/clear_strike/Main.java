@@ -1,22 +1,31 @@
+package main.com.clear_strike;
+
+import main.com.action.ActionConstants;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+* Input file generated randomly.
+* Modify input.txt to check different results
+* */
+
 public class Main {
-  private static final String FILE_NAME = "./clear strike/src/input.txt";
+  private static final String FILE_NAME = "./clear strike/src/main/com/clear_strike/input.txt";
 
   public static void main(String[] args) {
-    PlayGame playGame = new PlayGame();
+    Game game = new Game();
     List<ActionConstants> allMoves;
     allMoves = populateList();
     for (ActionConstants currentAction : allMoves) {
-      if (!playGame.playNextMove(currentAction)) {
+      if (!game.playNextMove(currentAction)) {
         break;
       }
     }
-    System.out.println(playGame.getWinner());
+    System.out.println(game.getWinner());
   }
 
   private static List<ActionConstants> populateList() {

@@ -1,3 +1,5 @@
+package main.com.action;
+
 public enum ActionConstants {
   STRIKE(1),
   MULTIPLE_STRIKE(2),

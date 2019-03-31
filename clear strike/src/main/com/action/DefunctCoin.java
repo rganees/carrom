@@ -1,3 +1,7 @@
+package main.com.action;
+
+import main.com.board.Board;
+
 public class DefunctCoin extends Action{
 
     @Override

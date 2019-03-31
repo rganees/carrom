@@ -1,26 +1,35 @@
+package main.com.clear_strike;
+
+import main.com.action.Action;
+import main.com.action.ActionConstants;
+import main.com.action.ActionFactory;
+import main.com.board.Board;
+import main.com.player.Player;
+
 import java.util.List;
 
-public class PlayGame {
+public class Game {
 
   protected int playerToMove;
   protected int noOfPlayers;
   Board board;
   Player player1;
   Player player2;
+  ActionFactory actionFactory;
 
-  public PlayGame() {
+  public Game() {
     this.playerToMove = 0;
     this.noOfPlayers = 2;
     this.board = new Board(1, 9);
     this.player1 = new Player("Player 1");
     this.player2 = new Player("Player 2");
+    actionFactory = new ActionFactory();
   }
 
   public boolean playNextMove(ActionConstants currentAction) {
     if (currentAction != null && !isGameOver()) {
 
       boolean isInvalidMove = false;
-      ActionFactory actionFactory = new ActionFactory();
       Action action = actionFactory.getAction(currentAction);
       Player player = getPlayerToMove();
       if (player != null) {
@@ -41,14 +50,14 @@ public class PlayGame {
   }
 
   private void performActionForValidMove(
-      ActionConstants currentAction, boolean isInvalidMove, Player player) {
+          ActionConstants currentAction, boolean isInvalidMove, Player player) {
     if (isInvalidMove) {
       System.out.println("Invalid Move. Please try again.");
     } else {
       player.setPreviousMoves(currentAction);
       playerToMove++;
       System.out.println(
-          "Current Score: Player 1: " + player1.getPoints() + " Player 2: " + player2.getPoints());
+          "Current Score: main.com.player.Player 1: " + player1.getPoints() + " main.com.player.Player 2: " + player2.getPoints());
       System.out.println(
           "Coins left: Red: " + board.getRedCoin() + " black: " + board.getBlackCoin() + "\n");
     }
@@ -79,7 +88,7 @@ public class PlayGame {
     return returnFlag;
   }
 
-  private boolean isPossiblePointLoser(ActionConstants action) {
+  public boolean isPossiblePointLoser(ActionConstants action) {
     return action.equals(ActionConstants.MISSED_STRIKE)
         || action.equals(ActionConstants.DEFUNCT_COIN)
         || action.equals(ActionConstants.STRIKER_STRIKE);

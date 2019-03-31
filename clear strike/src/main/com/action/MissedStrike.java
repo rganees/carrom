@@ -1,7 +1,11 @@
-public class StrikerStrike extends Action {
+package main.com.action;
+
+import main.com.board.Board;
+
+public class MissedStrike extends Action {
     @Override
     public int getPoints(Board board) {
-        return -1;
+        return 0;
     }
 
     @Override
